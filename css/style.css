@@ -67,7 +67,7 @@
 margin-right: 0.5em;
   }
 
-  textarea , select{
+ .answer input , textarea , select{
   width: 80%;
   }
   ::-webkit-input-placeholder {

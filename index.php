@@ -17,7 +17,7 @@
 <p class="answer"><input type="text" name="facility_name"></p>
 
 <h2>都道府県</h2>
-<select name="pref"class="answer">
+<select name="pref" class="answer">
   <option value="" selected>都道府県</option>
   <option value="北海道">北海道</option>
   <option value="青森県">青森県</option>
@@ -75,18 +75,18 @@
 <p class="answer"><input type="url" name="facility_url"></p>
 
 <h2>営業時間</h2>
-<p class="answer half"><input type="time" name="open_time">～<input type="time" name="close_time"></p>
+<p class="half"><input type="time" name="open_time">～<input type="time" name="close_time"></p>
 
 <h2>休日</h2>
 <p class="answer"><input type="text" name="closed_day"></p>
 <h2>予約</h2>
-<p class="answer">
+<p>
 <input type="radio" name="reservation" id="reservation_type01" value="予約必須">予約必須
 <input type="radio" name="reservation" id="reservation_type02" value="予約可能">予約可能
 <input type="radio" name="reservation" id="reservation_type03" value="予約不要">予約不要
 </p>
 <h2>展示タイプ</h2>
-<p class="answer">
+<p>
 <input type="hidden" name="exhibition_type01" value="0" />
 <input type="checkbox" name="exhibition_type01" value="模型展示">模型展示
 <input type="hidden" name="exhibition_type02" value="0" />
@@ -96,7 +96,7 @@
 <input type="hidden" name="exhibition_type04" value="0" />
 <input type="checkbox" name="exhibition_type04" value="パネル展示">パネル展示</p>
 <h2>種別</h2>
-<p class="answer">
+<p>
 <input type="hidden" name="category_type01" value="0" />
 <input type="checkbox" name="category_type01" value="織り">織り
 <input type="hidden" name="category_type02" value="0" />
@@ -119,10 +119,11 @@
 <input type="checkbox" name="category_type10" value="民族">民族
 <input type="hidden" name="category_type11" value="0" />
 <input type="checkbox" name="category_type11" value="その他">その他
+<p>その他の方はこちらにご入力ください。</p>
 <p class="answer"><input type="text" name="category_txt"></p>
 </p>
 <h2>写真撮影</h2>
-<p class="answer">
+<p>
 <input type="radio" name="picture" id="picture_type01" value="撮影可能">撮影可能
 <input type="radio" name="picture" id="picture_type01" value="撮影不可">撮影不可
 <input type="radio" name="picture" id="picture_type01" value="撮影については未確認">撮影については未確認

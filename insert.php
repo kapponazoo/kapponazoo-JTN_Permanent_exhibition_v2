@@ -38,7 +38,7 @@ $picture = $_POST["picture"];
 $exhibition_info = $_POST["exhibition_info"];
 
 
-echo($exhibition_type01);
+
 //2. チェックボックス空欄の処理
 if ($exhibition_type01 == '0') {$exhibition_type01 = '' ;} else {$exhibition_type01 = '<span class="exhibition_type">'.$exhibition_type01 .'</span>';};
 if ($exhibition_type02 == '0') {$exhibition_type02 = '' ;} else {$exhibition_type02 = '<span class="exhibition_type">'.$exhibition_type02 .'</span>';};
@@ -56,6 +56,7 @@ if ($category_type08 == '0') {$category_type08 = '' ;} else {$category_type08 = 
 if ($category_type09 == '0') {$category_type09 = '' ;} else {$category_type09 = '<span class="category_type">'.$category_type09 .'</span>';};
 if ($category_type10 == '0') {$category_type10 = '' ;} else {$category_type10 = '<span class="category_type">'.$category_type10 .'</span>';};
 if ($category_type11 == '0') {$category_type11 = '' ;} else {$category_type11 = '<span class="category_type">'.$category_type11 .'</span>';};
+if ($category_txt == '0') {$category_txt = '' ;} else {$category_ttxt = '<span class="category_type">'.$category_txt .'</span>';};
 
 
 

@@ -45,17 +45,17 @@ if ($exhibition_type02 == '0') {$exhibition_type02 = '' ;} else {$exhibition_typ
 if ($exhibition_type03 == '0') {$exhibition_type03 = '' ;} else {$exhibition_type03 = '<span class="exhibition_type">'.$exhibition_type03 .'</span>';};
 if ($exhibition_type04 == '0') {$exhibition_type04 = '' ;} else {$exhibition_type04 = '<span class="exhibition_type">'.$exhibition_type04 .'</span>';};
 
-if ($category_type01 == '0') {$category_type01 = '' ;} else {$category_type01 = '<span class="exhibition_type">'.$exhibition_type01 .'</span>';};
-if ($category_type02 == '0') {$category_type02 = '' ;} else {$category_type02 = '<span class="exhibition_type">'.$exhibition_type02 .'</span>';};
-if ($category_type03 == '0') {$category_type03 = '' ;} else {$category_type03 = '<span class="exhibition_type">'.$exhibition_type03 .'</span>';};
-if ($category_type04 == '0') {$category_type04 = '' ;} else {$category_type04 = '<span class="exhibition_type">'.$exhibition_type04 .'</span>';};
-if ($category_type05 == '0') {$category_type05 = '' ;} else {$category_type05 = '<span class="exhibition_type">'.$exhibition_type05 .'</span>';};
-if ($category_type06 == '0') {$category_type06 = '' ;} else {$category_type06 = '<span class="exhibition_type">'.$exhibition_type06 .'</span>';};
-if ($category_type07 == '0') {$category_type07 = '' ;} else {$category_type07 = '<span class="exhibition_type">'.$exhibition_type07 .'</span>';};
-if ($category_type08 == '0') {$category_type08 = '' ;} else {$category_type08 = '<span class="exhibition_type">'.$exhibition_type08 .'</span>';};
-if ($category_type09 == '0') {$category_type09 = '' ;} else {$category_type09 = '<span class="exhibition_type">'.$exhibition_type09 .'</span>';};
-if ($category_type10 == '0') {$category_type10 = '' ;} else {$category_type10 = '<span class="exhibition_type">'.$exhibition_type10 .'</span>';};
-if ($category_type11 == '0') {$category_type11 = '' ;} else {$category_type11 = '<span class="exhibition_type">'.$exhibition_type11 .'</span>';};
+if ($category_type01 == '0') {$category_type01 = '' ;} else {$category_type01 = '<span class="category_type">'.$category_type01 .'</span>';};
+if ($category_type02 == '0') {$category_type02 = '' ;} else {$category_type02 = '<span class="category_type">'.$category_type02 .'</span>';};
+if ($category_type03 == '0') {$category_type03 = '' ;} else {$category_type03 = '<span class="category_type">'.$category_type03 .'</span>';};
+if ($category_type04 == '0') {$category_type04 = '' ;} else {$category_type04 = '<span class="category_type">'.$category_type04 .'</span>';};
+if ($category_type05 == '0') {$category_type05 = '' ;} else {$category_type05 = '<span class="category_type">'.$category_type05 .'</span>';};
+if ($category_type06 == '0') {$category_type06 = '' ;} else {$category_type06 = '<span class="category_type">'.$category_type06 .'</span>';};
+if ($category_type07 == '0') {$category_type07 = '' ;} else {$category_type07 = '<span class="category_type">'.$category_type07 .'</span>';};
+if ($category_type08 == '0') {$category_type08 = '' ;} else {$category_type08 = '<span class="category_type">'.$category_type08 .'</span>';};
+if ($category_type09 == '0') {$category_type09 = '' ;} else {$category_type09 = '<span class="category_type">'.$category_type09 .'</span>';};
+if ($category_type10 == '0') {$category_type10 = '' ;} else {$category_type10 = '<span class="category_type">'.$category_type10 .'</span>';};
+if ($category_type11 == '0') {$category_type11 = '' ;} else {$category_type11 = '<span class="category_type">'.$category_type11 .'</span>';};
 
 
 

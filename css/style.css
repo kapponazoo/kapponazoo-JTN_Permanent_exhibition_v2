@@ -63,6 +63,10 @@
     max-width: 600px;
   }
 
+  span.exhibition_type , span.category_type{
+margin-right: 0.5em;
+  }
+
   textarea , select{
   width: 80%;
   }
